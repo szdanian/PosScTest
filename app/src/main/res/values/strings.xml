@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">S600硬件测试</string>
+    <string name="main_title">S600硬件测试</string>
+    <string name="bt_icc_test">IC卡测试</string>
+    <string name="bt_magcard_test">磁条卡测试</string>
+    <string name="bt_beep_test">蜂鸣器测试</string>
+    <string name="bt_sensor_test">保护点测试</string>
+    <string name="bt_led_test">LED灯测试</string>
+    <string name="bt_picc_test">非接卡测试</string>
+    <string name="bt_key_test">导入密钥测试</string>
+    <string name="bt_version_test">读版本号</string>
+    <string name="bt_print_test">打印机测试</string>
+
+    <string name="bt_success">成功</string>
+    <string name="bt_fail">失败</string>
+
+    <string name="led_test_title">Led灯测试</string>
+    <string name="bt_all_on">全部灯亮</string>
+    <string name="bt_all_off">全部灯关</string>
+
+    <string name="beep_test_title">蜂鸣器测试</string>
+    <string name="bt_beep_on">蜂鸣器响</string>
+    <string name="bt_beep_off">蜂鸣器关</string>
+
+    <string name="main_button_feed">测试进纸</string>
+    <string name="main_button_print">测试打印</string>
+    <string name="main_button_manage">设备管理</string>
+
+    <string name="ver_test_title">读版本号</string>
+    <string name="icc_test_title">IC卡测试</string>
+    <string name="picc_test_title">非接触卡测试</string>
+    <string name="magcard_test_title">磁条卡测试</string>
+    <string name="sensor_test_title">保护点测试</string>
+    <string name="key_test_title">写密钥测试</string>
+    <string name="print_test_title">打印机测试</string>
+</resources>

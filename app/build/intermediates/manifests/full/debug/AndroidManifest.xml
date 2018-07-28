@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.danian.possctest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="com.danian.postest.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.danian.postest.TestLedActivity" />
+        <activity android:name="com.danian.postest.TestBeepActivity" />
+        <activity android:name="com.danian.postest.TestVerActivity" />
+        <activity android:name="com.danian.postest.TestIccCardActivity" />
+        <activity android:name="com.danian.postest.TestPiccCardActivity" />
+        <activity android:name="com.danian.postest.TestMagCardActivity" />
+        <activity android:name="com.danian.postest.TestSensorActivity" />
+        <activity android:name="com.danian.postest.TestPinActivity" />
+        <activity android:name="com.danian.postest.TestPrintActivity" />
+
+        <service
+            android:name="com.danian.btmanage.BluetoothManage"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name="com.danian.btdevice.DeviceManage" />
+    </application>
+
+</manifest>
